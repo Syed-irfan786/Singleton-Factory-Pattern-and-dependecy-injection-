@@ -30,6 +30,6 @@ class Factory{
 // $obj = new Employee("irfan", "00000","10k" ,"xyz");
 // echo $obj->getDetails();
 
-$obj1 =  new Employee("irfan", "00000000","10k" ,"xyz");
-$emp = Factory::createEmployeeObject("irfan", "00000000","10k" ,"xyz");
+// $obj1 =  new Employee("irfan", "00000000","10k" ,"xyz");
+$emp = Factory::createEmployeeObject("irfann", "00000000","10k" ,"xyz");
 echo  $emp->getDetails();

@@ -13,18 +13,13 @@ class singleton{
             self::$instance= new static();
         }
         else{
-            echo "Already connected";
+            echo "<br> Already object created";
         }
-
         return self::$instance;
-
-
-
-     
     }
 }
 
 $object= singleton::showInstance();
-// $object2= singleton::showInstance();
+$object2= singleton::showInstance();
 
-var_dump ($object);
+// var_dump ($object);
